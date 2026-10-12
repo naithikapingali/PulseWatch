@@ -1,0 +1,4 @@
+name,url,method,expected_status,contains_text
+Example Website,https://example.com,GET,200,Example Domain
+HTTPBin Status,https://httpbin.org/status/200,GET,200,
+HTTPBin JSON,https://httpbin.org/json,GET,200,slideshow
