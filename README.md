@@ -1,6 +1,21 @@
 # 💚 PulseWatch — Website & API Health Monitor
 
-A polished, local-first monitoring dashboard built with **Python, Streamlit, Requests, SQLite, Pandas and Plotly**. Ideal for a Python/SDET GitHub portfolio.
+[![Python tests](https://github.com/naithikapingali/PulseWatch/actions/workflows/tests.yml/badge.svg)](https://github.com/naithikapingali/PulseWatch/actions/workflows/tests.yml)
+
+PulseWatch is a Python-based website and REST API health monitoring application developed to explore software engineering, automated testing, and performance analytics.
+
+Built with Python, Streamlit, Requests, SQLite, Pandas, and Plotly, the application provides an interactive dashboard for monitoring endpoint availability, tracking response times, and analyzing historical performance.
+
+## Automated Testing
+
+PulseWatch includes 9 automated tests using Pytest.
+
+The test suite runs through GitHub Actions whenever
+changes are pushed to the main branch.
+
+**Latest verified result: 9 tests passed (100%).**
+
+[View GitHub Actions Results](https://github.com/naithikapingali/PulseWatch/actions)
 
 ## Features
 - Monitor HTTP/HTTPS endpoints using GET or HEAD
