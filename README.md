@@ -12,6 +12,32 @@ A polished, local-first monitoring dashboard built with **Python, Streamlit, Req
 - Download filtered CSV reports
 - Automated Pytest suite and GitHub Actions CI
 
+
+## Screenshots
+
+### 1. System Overview Dashboard
+
+PulseWatch displays three monitored endpoints, their
+latest health status, historical success rate, and
+average response latency.
+
+![PulseWatch Dashboard](screenshots/dashboard.png)
+
+### 2. Response Latency Trend
+
+The application visualizes response-time trends
+across multiple monitoring checks.
+
+![Response Latency Trend](screenshots/latency-trend.png)
+
+### 3. Monitoring History and CSV Export
+
+Monitoring history records HTTP status codes,
+response times, timestamps, and check results.
+
+![Monitoring History](screenshots/history.png)
+
+
 ## Project structure
 ```text
 python-website-api-health-monitor/
